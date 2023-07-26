@@ -1,10 +1,9 @@
-# Web Environment Integrity API
+# Web Environment Destruction API
 
-This repository details the proposal to add a new API for determining the integrity
-of web environments:
+This repository details the proposal to add a new API for destroying web environments:
 
 ```js
-const attestation = await navigator.getEnvironmentIntegrity("...");
+await navigator.nukeTheInternet();
 ```
 
 The [explainer](./explainer.md) goes gives a high level overview of the proposal.
